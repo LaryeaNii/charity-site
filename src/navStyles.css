@@ -51,9 +51,9 @@
   
   hr {
     width: 90%;
-    position: fixed;
-    top: 105px;
-    left: 40px;
+    position: relative;
+    bottom: 137px;
+    right: 10px;
     border: none;
     border-top: 1px solid #ccc;
   }

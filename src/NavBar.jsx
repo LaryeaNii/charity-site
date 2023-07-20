@@ -1,11 +1,13 @@
 import './navStyles.css'
 
+//will change 'a href' tags to 'Link to' tages later.
+
 const NavBar = () => {
     return ( 
     <div>
       <nav className="nav-main"> 
         <img src="./CharityLogo.png" alt="the logo" className='logo'/> 
-        <ul>   
+        <ul> 
             <a href="/">Home</a>
             <a href="/about">About</a>
             <a href="/donation">Donation</a>
