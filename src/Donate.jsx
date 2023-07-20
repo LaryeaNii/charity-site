@@ -2,8 +2,8 @@ const Donate = () => {
     return ( 
     <div>
       <h1>Donate</h1>
-    </div>  );
+    </div>  
+    );
 }
  
-export default Donate; <div>
-</div>
+export default Donate; 
