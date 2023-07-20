@@ -18,8 +18,8 @@ const Home = () => {
         <div className='images'>
             <img src="./pic1.jpg" alt="pic1" />
             <img src="./pic2.jpg" alt="pic2" />
-            <img src="./pic3.jpg" alt="pic3" />
-            <img src="./pic4.jpg" alt="pic4" />
+            <img src="./pic2.jpg" alt="pic3" />
+            <img src="./pic5.jpg" alt="pic4" />
             <img src="./pic5.jpg" alt="pic5" />
             <img src="./pic6.jpg" alt="pic6" />
         </div>
