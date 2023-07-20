@@ -1,6 +1,5 @@
 import './navStyles.css'
 
-//will change 'a href' tags to 'Link to' tages later.
 
 const NavBar = () => {
     return ( 
