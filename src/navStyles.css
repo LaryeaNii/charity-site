@@ -1,0 +1,60 @@
+.nav-main {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  .nav-main ul {
+    position: relative;
+    bottom: 160px;
+    justify-content: center;
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-main ul a {
+    text-decoration: none;
+    font-weight: 500;
+    color: gray;
+    position: relative;
+  }
+  .nav-main ul a:hover{
+    color: black;
+  }
+  
+  
+  .nav-main ul a::after {
+    content: "";
+    position: absolute;
+    bottom: -38px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 5px;
+    background-color: transparent; 
+    transition: background-color 0.3s; 
+  }
+  
+
+  .nav-main ul a:hover::after {
+    background-color: rgb(184, 45, 45); 
+  }
+  
+  .logo {
+    position: relative;
+    bottom: 30px;
+    max-width: 180px;
+    margin-left: 50px;
+  }
+  
+  hr {
+    width: 90%;
+    position: fixed;
+    top: 105px;
+    left: 40px;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
