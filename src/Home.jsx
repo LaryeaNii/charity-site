@@ -1,5 +1,5 @@
 import './homeStyle.css'
-
+import { Link } from 'react-router-dom';
     
 const Home = () => {
 
@@ -13,7 +13,9 @@ const Home = () => {
                to anyone in need out there, 
                anytime and anywhere.
             </p>
-            <button>Donate Today ↗</button>
+        <Link to="/donate">
+          <button>Donate Today ↗</button>
+        </Link>
         </div>
         <div className='images'>
             <img src="./pic1.jpg" alt="pic1" />
