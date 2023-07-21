@@ -17,7 +17,10 @@ const NavBar = () => {
   return (
     <div>
       <nav className="nav-main">
-        <img src="./CharityLogo.png" alt="the logo" className="logo" />
+        <Link to="/">
+           <img src="./CharityLogo.png" alt="the logo" className="logo" />
+        </Link>
+        
         <ul className={active}>
           <li>
             <Link to="/" className="nav-link">Home</Link>
