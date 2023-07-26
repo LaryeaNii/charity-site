@@ -4,6 +4,8 @@
   justify-content: center;
   padding: 0;
   margin-left: 50px;
+  
+  background-color: white;
 }
 
 .menu {
@@ -130,8 +132,8 @@ hr {
   }
 
   .hamburger-menu {
-    position: relative;
-    left: 40px;
+    position: fixed;
+    right: 40px;
     display: block;
     z-index: 1;
   }
