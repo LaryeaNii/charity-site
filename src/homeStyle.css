@@ -348,7 +348,19 @@ footer{
     align-items: center;
     text-align: center;
   }
- 
+  .project-container {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    gap: 80px;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  .project-container::-webkit-scrollbar {
+    display: none;
+  }
+  
 }
 
 @media screen and (max-width: 480px) {
