@@ -52,12 +52,241 @@
   
   .images img {
     max-width: 200px;
-    max-height: 500px;
     border-radius: 40px;
     margin: 10px; 
   }
+   
+  .rounded{
+    display: flex;
+    border-radius: 60px;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: rgb(179, 41, 41);
+    width: 500px;
+    justify-content: space-between;
+  }
+
+  .rounded p{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .rounded-p-text{
+    margin-bottom: 90px;
+  }
   
+
+  .rounded p:hover {
+    transform: translateY(-10px);
+  }
+  .flex-text{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 120px;
+    align-items: center;
+  }
+  .arrows{
+    position: relative;
+    left: 250px;
+    top: 10px;
+
+  }
+  .move-button{
+    background-color: white;
+    padding: none;
+    box-shadow: none;
+  }
+
+  .project-container{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    gap: 80px;
+    width: 100%;
+    margin: 20px;
+    margin-left: 90px;
+  }
+
+
+  .projects{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    width: 325px;  
+
+
+  }
+   .projects img{
+    border-radius: 50px;
+    width: 300px;
+    height: 330px;
+    margin: 10px;
+   }
+   .projects p{
+    padding-left: 20px;
+    text-align: left;
+   }
+     
+   .custom-progress{
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   
+.custom-progress progress {
   
+  appearance: none;
+  background-color: #ff0000;
+  height: 15px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.custom-progress progress::-webkit-progress-bar {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.custom-progress progress::-webkit-progress-value {
+  background-color: #ff0000; 
+  border-radius: 8px;
+}
+
+   
+   .project-title{
+     font-size: 22px;
+     font-weight: 700;
+     margin-bottom: -12px;
+  }
+   .the-projects{
+    display: flex;
+   }
+.exposition-container{
+  display: flex;
+  gap: 30px;
+}
+
+   
+.exposition{
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+#secondMain{
+  background-color: rgb(224, 224, 224);
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.mission{
+  width: 50%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.team-container img{
+  width: 800px;
+  height: 300px;
+  border-radius: 80px;
+}
+#new-round{
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  position: relative;
+  bottom: 200px;
+  left: 130px;
+
+}
+.rounded p{
+  text-decoration: none;
+}
+.team-container a{
+  text-decoration: none ;
+}
+#faq-main{
+  text-align: center;
+}
+footer{
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6c6c6;
+}
+
+.footer-container{
+  display: flex;
+  padding: 30px;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+.message{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.message img{
+  width: 100px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 20px; 
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.grid-item ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.grid-item li {
+  margin-bottom: 5px;
+}
+
+.grid-item li a {
+  text-decoration: none; 
+  color: #333; 
+}
+
+.grid-item li a:hover {
+  text-decoration: underline;
+}
+.request{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.request p{
+  font-size: 26px;
+}
+
+
 @media screen and (max-width: 768px) {
   .subtitle {
     left: 0; 
@@ -66,6 +295,60 @@
     display: flex;
     flex-direction: column;
   }
+  .rounded{  
+    width: 320px;
+    justify-content: space-between;
+  }
+  .rounded-p-text{
+    text-align: center;
+  }
+  .flex-text{
+    display: flex;
+    position: relative;
+    left: 20px;
+    align-items: center;
+    font-size: 24px;
+  }
+  .arrows{
+    position: relative;
+    left: 50px;
+    top: 10px;
+    visibility: hidden;
+  }
+  .mission{
+    width: 80%;
+  }
+  .team-container img{
+    width: 400px;
+    height: 300px;
+    border-radius: 80px;
+  }
+  #new-round{
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    bottom: 220px;
+    left: 30px;
+    font-size: 18px;
+  
+  }
+  #new-round p{
+    font-size: 20px;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .message{
+    align-items: center;
+    text-align: center;
+  }
+ 
 }
 
 @media screen and (max-width: 480px) {
