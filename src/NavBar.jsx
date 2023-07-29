@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './navStyles.css';
 
@@ -14,8 +14,11 @@ const NavBar = () => {
       : setToggleIcon('hamburger-menu');
   };
 
+  
+
   return (
     <div>
+    <div className='all-nav'>
       <nav className="nav-main">
         <Link to="/">
            <img src="./CharityLogo.png" alt="the logo" className="logo" />
@@ -45,6 +48,7 @@ const NavBar = () => {
         </div>
       </nav>
       <hr />
+    </div>
     </div>
   );
 }

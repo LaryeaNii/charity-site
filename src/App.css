@@ -5,3 +5,9 @@ body{
     margin-right: 20px;
     overflow-y: visible;
 }
+
+@media screen and (max-width: 900px) {
+ body{
+    margin-top: 190px;
+ }
+}
