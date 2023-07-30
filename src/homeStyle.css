@@ -349,7 +349,9 @@ footer{
     align-items: center;
   
   }
-  
+  footer{
+    overflow-x: hidden;
+  }
 
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
