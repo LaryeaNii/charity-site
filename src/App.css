@@ -9,6 +9,7 @@ body{
 @media screen and (max-width: 900px) {
  body{
     margin-top: 170px;
+    overflow-x: hidden;
 
  }
 }
