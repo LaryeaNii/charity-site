@@ -8,13 +8,13 @@ const Home = ({charityData}) => {
 
     const scrollLeft = () => {
       if (projectContainerRef.current) {
-        projectContainerRef.current.scrollBy({ left: -200, behavior: 'smooth' }); // Adjust the scroll value as needed
+        projectContainerRef.current.scrollBy({ left: -200, behavior: 'smooth' }); 
       }
     };
   
     const scrollRight = () => {
       if (projectContainerRef.current) {
-        projectContainerRef.current.scrollBy({ left: 200, behavior: 'smooth' }); // Adjust the scroll value as needed
+        projectContainerRef.current.scrollBy({ left: 200, behavior: 'smooth' }); 
       }
     };    
 
@@ -23,7 +23,7 @@ const Home = ({charityData}) => {
     return ( 
     <div className="home-page">
    
-   {/*From the header title to the category with hover animation*/}
+
     <div className='text'>
             <p className='main-text'>Be the <span>Hero</span> that changes lives</p>
             <p className='subtitle'>We will distribute your assitance
@@ -43,7 +43,7 @@ const Home = ({charityData}) => {
             <img src="./pic6.jpg" alt="pic6" />
         </div>
          
-          <p className="main-text">
+          <p className="main-text" id='foundation'> 
             <b>Our Foundation</b> will do charity to all levels ranging from
           </p>
 

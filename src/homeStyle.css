@@ -6,10 +6,12 @@
   
   .text {
     text-align: center;
+    margin-top: -100px;
+    margin-left: 50px;
   }
   
   .main-text {
-    font-size: 2.7rem;
+    font-size: 3.9rem;
     font-weight: 200;
   }
   
@@ -18,15 +20,17 @@
   }
   
   .subtitle {
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 200;
-    max-width: 450px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     text-align: center;
     position: relative;
-    left: 80px;
+    left: 20px;
+    bottom: 50px;
   }
-  
+  #foundation{
+    text-align: center;
+  }
   button {
     border-radius: 20px;
     font-size: 18px;
@@ -289,10 +293,25 @@ footer{
 .request p{
   font-size: 26px;
 }
+
+
 @media screen and (max-width: 768px) {
+
+  .text{
+    margin: 5px;
+  }
+
+
   .subtitle {
+    position: relative;
+    top: 5px;
     left: 0; 
   }
+  .text button{
+    margin-top: 15px;
+  }
+
+
   .images{
     display: flex;
     flex-direction: column;
@@ -302,12 +321,13 @@ footer{
     gap: 10px;
     justify-content: space-between;
   }
-  .rounded p{
-    font-size: 18px;
-  }
+.rounded p{
+  font-size: 18px;
+}
 
   .rounded-p-text{
     text-align: center;
+
   }
   .flex-text{
     display: flex;
@@ -347,11 +367,9 @@ footer{
   .footer-container {
     flex-direction: column;
     align-items: center;
+ 
+  }
   
-  }
-  footer{
-    overflow-x: hidden;
-  }
 
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
@@ -378,45 +396,6 @@ footer{
 @media screen and (max-width: 480px) {
   .main-text {
     font-size: 2rem; 
-  }
-}
-
-/* Modify the footer code to make it better responsive */
-
-.footer-container {
-  flex-direction: column;
-  align-items: center;
-  padding: 20px; /* Add some padding to the footer container */
-}
-
-footer {
-  text-align: center;
-}
-
-.footer-text {
-  font-size: 16px; /* Adjust the font size for the footer text */
-  margin: 10px 0; /* Add some margin for spacing */
-}
-
-/* Modify the grid layout for smaller screens */
-@media screen and (max-width: 768px) {
-  .footer-container {
-    padding: 10px; /* Reduce the padding for smaller screens */
-  }
-  
-  .grid {
-    grid-template-columns: 1fr 1fr 1fr; /* Change to a single column layout */
-  }
-  
-  .footer-text {
-    font-size: 14px; /* Reduce the font size for smaller screens */
-  }
-}
-
-/* Further adjust for even smaller screens */
-@media screen and (max-width: 480px) {
-  .footer-text {
-    font-size: 12px; /* Reduce the font size for even smaller screens */
   }
 }
 

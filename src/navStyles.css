@@ -53,13 +53,18 @@
 
 .logo {
   max-width: 180px;
+  position: relative;
+  top: -60px;
+  left: 600px;
+  margin-top: 30px;
+  margin-bottom: 80px;
 }
 
 hr {
   border: none;
   border-top: 1px solid #ccc;
   position: absolute;
-  top: 129px;
+  top: 189px;
   width: 85%;
   margin-left: 70px;
 }
@@ -91,20 +96,12 @@ hr {
 }
 @media screen and (max-width: 900px) {
 
-  .nav-main {
-    position: fixed;
-    top: 0; 
-    left: -50px;
-    width: 100%;
-    height: 130px;
-    background: white; 
-    z-index: 100; 
-  }
+  
   .logo{
+    position: relative;
     width: 100px;
-    position: fixed;
-    top:20px;
-    left: 230px;
+    top: 10px;
+    left: 30px;
     overflow: none;
   }
 
@@ -129,11 +126,11 @@ hr {
   }
 
   .hamburger-menu {
-    left: 120px;
+    left: -180px;
     display: block;
     z-index: 2;
-    position: fixed;
-    top: 50px;
+    position: relative;
+    top: -20px;
   }
 
   .hamburger-menu div {
@@ -163,7 +160,7 @@ hr {
   }
 
   hr {
-    margin: 15px 0;
+    margin-top: -40px;
     margin-left: 20px;
     border: none;
     border-top: 1px solid #ccc;
